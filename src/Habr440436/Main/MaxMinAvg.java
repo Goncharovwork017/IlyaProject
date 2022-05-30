@@ -5,7 +5,13 @@ package Habr440436.Main;
 public class MaxMinAvg {
     public static void main(String[] args) {
         int[] massive = {22, 33, 44};
+        
+        // 1- переписать, чтобы числа считывались с консоли 
+        // 2 - создать меню, чтобы 1 было ввод числа 2 макс 3 мин 4 сред взависимости от выбора
+        // добавить методы а не просто выводы
 
+        
+        
         // Максимальное значение чисел
         System.out.println("Max value: " + Math.max(massive[0], Math.max(massive[1], massive[2])));
 
